@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM krysp89/hyperflow-nfs-docker
 
 # Install make
 RUN apt-get update && apt-get install -y \
